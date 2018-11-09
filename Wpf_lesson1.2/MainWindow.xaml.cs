@@ -12,26 +12,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Wpf_lesson1._1
+namespace Wpf_lesson1._2
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
     /// </summary>
     public partial class MainWindow : Window
     {
-        /*
-          public MainWindow()
+        public MainWindow()
         {
             InitializeComponent();
         }
-             
-             
-             */
-        void ClickHandler(object snder, RoutedEventArgs e)
-        {
-            Button b = e.Source as Button;
-            b.Background = Brushes.Red;
-        }
-
     }
 }

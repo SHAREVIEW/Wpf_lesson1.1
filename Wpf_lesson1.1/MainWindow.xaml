@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_lesson1._1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="le1" Height="450" Width="600">
     <Grid>
-        
+        <Button Click="ClickHandler">Click Me!
+        </Button>
+    
+
     </Grid>
 </Window>

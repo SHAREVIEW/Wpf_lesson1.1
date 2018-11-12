@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2519FA81-E651-4B0A-8551-7681944E5F97}</ProjectGuid>
+    <ProjectGuid>{A24AA311-84B0-4E14-A926-4AB5FF0D8864}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Wpf_lesson1._3</RootNamespace>
-    <AssemblyName>Wpf_lesson1.3</AssemblyName>
+    <RootNamespace>Wpf_lesson1._4</RootNamespace>
+    <AssemblyName>Wpf_lesson1.4</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

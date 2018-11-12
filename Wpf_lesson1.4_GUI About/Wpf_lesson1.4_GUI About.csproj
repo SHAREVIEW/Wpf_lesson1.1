@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2519FA81-E651-4B0A-8551-7681944E5F97}</ProjectGuid>
+    <ProjectGuid>{6C8F5C2D-E45B-4D4E-A32E-9D5DE70AEE0B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Wpf_lesson1._3</RootNamespace>
-    <AssemblyName>Wpf_lesson1.3</AssemblyName>
+    <RootNamespace>Wpf_lesson1._4_GUI_About</RootNamespace>
+    <AssemblyName>Wpf_lesson1.4_GUI About</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -36,6 +36,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -53,10 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -89,8 +98,14 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Resource Include="readme.txt" />
+    <Resource Include="Images\Banner.png" />
+    <Resource Include="Images\base_floppydisk_32.png" />
+    <Resource Include="Images\Clubs.png" />
+    <Resource Include="Images\Diamonds.png" />
+    <Resource Include="Images\Hearts.png" />
+    <Resource Include="Images\Spades.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_lesson1.2", "Wpf_lesson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_lesson1.3", "Wpf_lesson1.3\Wpf_lesson1.3.csproj", "{2519FA81-E651-4B0A-8551-7681944E5F97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_lesson1.4_DeleteButton", "Wpf_lesson1.4\Wpf_lesson1.4_DeleteButton.csproj", "{A24AA311-84B0-4E14-A926-4AB5FF0D8864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_lesson1.4_GUI About", "Wpf_lesson1.4_GUI About\Wpf_lesson1.4_GUI About.csproj", "{6C8F5C2D-E45B-4D4E-A32E-9D5DE70AEE0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{2519FA81-E651-4B0A-8551-7681944E5F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2519FA81-E651-4B0A-8551-7681944E5F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2519FA81-E651-4B0A-8551-7681944E5F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24AA311-84B0-4E14-A926-4AB5FF0D8864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24AA311-84B0-4E14-A926-4AB5FF0D8864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24AA311-84B0-4E14-A926-4AB5FF0D8864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24AA311-84B0-4E14-A926-4AB5FF0D8864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C8F5C2D-E45B-4D4E-A32E-9D5DE70AEE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8F5C2D-E45B-4D4E-A32E-9D5DE70AEE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8F5C2D-E45B-4D4E-A32E-9D5DE70AEE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8F5C2D-E45B-4D4E-A32E-9D5DE70AEE0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

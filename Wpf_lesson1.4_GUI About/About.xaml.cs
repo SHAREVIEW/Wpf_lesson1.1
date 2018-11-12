@@ -9,25 +9,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Wpf_lesson1._3
+namespace Wpf_lesson1._4_GUI_About
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// About.xaml 的交互逻辑
     /// </summary>
-    
-     public partial class MainWindow : Window
+    public partial class About: Window
     {
-        public MainWindow()
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            InitializeComponent();
+            this.Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
-         
-
-
-
-
 }

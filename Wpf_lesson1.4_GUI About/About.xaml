@@ -9,7 +9,7 @@
         ResizeMode="CanResizeWithGrip">
     <Grid>
         <Grid.RowDefinitions>
-            <!--4 rows-->
+            <!--4 rows -->
             <RowDefinition Height="58"/>
             <RowDefinition Height="20"/>
             <RowDefinition />
@@ -34,7 +34,7 @@
         </Canvas>
         <StackPanel Grid.Row="2">
             <!--add two labels and a textblock-->
-                <Label Content="CardLib and Idea developed by Karli Wartson" 
+            <Label Content="CardLib and Idea developed by Karli Wartson" 
                    HorizontalAlignment="Left" VerticalAlignment="Top" 
                    Padding="20,20,0,0" FontWeight="Bold" Foreground="#FF8B6F6F"/>
             <Label Content="Graphical User Interface developed by Jacob" 
